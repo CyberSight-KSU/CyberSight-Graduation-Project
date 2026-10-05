@@ -108,6 +108,10 @@ Risk Score = (0.35 × CVSS) + (0.25 × EPSS × 10) + (0.40 × Asset Criticality 
 
 **Baseline risk-scoring weights:** The existing 35% CVSS, 25% EPSS, and 40% Business Criticality weights are provisional baseline values, not finalized or prescribed by the referenced frameworks. They are separate from the equal-weight average of the five business criteria. These risk-scoring weights must also be derived or validated through stakeholder input before final adoption.
 
+#### Weight Validation Plan
+
+The initial 35% CVSS, 25% EPSS, and 40% Business Criticality weights will be used only as a development baseline. Before final adoption, the relative importance of the three dimensions will be validated with selected cybersecurity and IT stakeholders using a structured pairwise-comparison approach. The resulting stakeholder-derived weights will be compared with the baseline values, and any adopted changes will be documented together with their effect on the final prioritization results.
+
 ## 1.5.2 Out of Scope
 
 - Automatic vulnerability scanning of real networks or endpoints.
